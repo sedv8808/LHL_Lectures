@@ -15,7 +15,7 @@ pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
 createdb sakila
 
 # Restore the database from the dump file
-pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
+#pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
 
 #Copy the initialisation files into the final container
 mv init_db $CONDA_DIR/
