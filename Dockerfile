@@ -1,19 +1,24 @@
-# Use a base Jupyter image that has PostgreSQL installed
-FROM jupyter/minimal-notebook
+# Use the official PostgreSQL image as the base
+FROM postgres:latest
 
-# Install necessary Python packages
-RUN pip install psycopg2-binary ipython-sql pandas
+# Set environment variables for PostgreSQL
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=postgres
+ENV POSTGRES_DB=sakila
 
-# Copy your database dump into the image
-COPY W2D4/data/sakila_backup.dump /home/jovyan/
+# Copy your database dump into the Docker image for automatic initialization
+COPY sakila_backup.dump /docker-entrypoint-initdb.d/
 
-# Create a script to set up PostgreSQL and the database
-RUN apt-get update && apt-get install -y postgresql postgresql-contrib && \
-    service postgresql start && \
-    sudo -u postgres createdb sakila && \
-    sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'postgres';" && \
-    sudo -u postgres pg_restore -U postgres -d sakila /home/jovyan/sakila_backup.dump
+# Install Python and necessary packages
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip && \
+    pip3 install psycopg2-binary ipython-sql
 
-# Modify PostgreSQL config to allow connections (this is optional)
-RUN echo "host all all 0.0.0.0/0 md5" >> /etc/postgresql/*/main/pg_hba.conf && \
-    echo "listen_addresses='*'" >> /etc/postgresql/*/main/postgresql.conf
+# Copy the entire repository into the working directory
+COPY . /home/jovyan/
+
+# Set the working directory
+WORKDIR /home/jovyan
+
+# Optionally, expose the PostgreSQL port if you want to access it
+EXPOSE 5432
