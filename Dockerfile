@@ -1,12 +1,6 @@
 # Use the official Jupyter base image
 FROM jupyter/base-notebook:latest
 
-# Install PostgreSQL and other dependencies
-RUN apt-get update && \
-    apt-get install -y postgresql postgresql-contrib && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
 # Set environment variables for PostgreSQL
 ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=postgres
