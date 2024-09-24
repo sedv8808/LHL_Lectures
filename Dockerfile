@@ -7,7 +7,7 @@ ENV POSTGRES_PASSWORD=postgres
 ENV POSTGRES_DB=sakila
 
 # Copy your database dump into the Docker image for automatic initialization
-COPY sakila_backup.dump /docker-entrypoint-initdb.d/
+COPY W2D4/data/sakila_backup.dump /docker-entrypoint-initdb.d/
 
 # Install Python and necessary packages
 RUN apt-get update && \
