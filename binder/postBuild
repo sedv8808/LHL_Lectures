@@ -11,9 +11,6 @@ fi
 #Start the postgres server
 pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
 
-# Create sakila
-createdb sakila
-
 # Restore the database from the dump file
 #pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
 
