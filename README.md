@@ -1,7 +1,11 @@
-# Lighthouse Labs Data Science and Data Analytics Lectures by Instructor Socorro Dominguez-Vidana
+# Lighthouse Labs Data Science and Data Analytics Lectures
 
-Welcome to the Lighthouse Labs Data Science and Data Analytics lectures! This repository contains all the materials and resources related to the lectures I will conduct. 
-![](img/lhl.jpeg)
+## Contributors
+
+- [![ORCID](https://img.shields.io/badge/orcid-0000--0002--7926--4935-brightgreen.svg)](https://orcid.org/0000-0002-7926-4935) Socorro Dominguez Vidana
+
+Welcome to the Lighthouse Labs Data Science and Data Analytics lectures! This repository contains all the materials and resources related to the lectures I will conduct.
+![Logo](img/lhl.jpeg)
 
 ## Introduction
 
@@ -10,7 +14,7 @@ Hello! My name is **Socorro Dominguez**, and I am a Data Scientist at the **Univ
 
 ## Overview
 
-This repository contains lectures covering various topics for the **Lighthouse Labs Data Science and Data Analytics programs**. 
+This repository contains lectures covering various topics for the **Lighthouse Labs Data Science and Data Analytics programs**.
 
 ## Available Formats
 
@@ -22,7 +26,7 @@ Additionally, we provide an interactive environment through **Binder**, where yo
 
 The lectures cover a wide range of topics essential for both Data Science and Data Analytics. Currently you can access:
 
-- **W2D4_DataQualityAssuranceProcess**: [GitHub Pages]() , [Binder]()
+- **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [Binder]()
 
 ## Contribution
 
