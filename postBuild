@@ -1,7 +1,12 @@
-#!/bin/bash
-
-# Start PostgreSQL service
+# Start PostgreSQL (no sudo)
 service postgresql start
 
-# Create the database from the dump
-pg_restore -U postgres -d sakila /docker-entrypoint-initdb.d/sakila_backup.dump
+# Create the database if needed
+createdb sakila
+
+# Restore the database from the dump file
+pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
+
+# Adjust PostgreSQL user (optional, to ensure password authentication)
+psql -U postgres -c "ALTER USER postgres WITH PASSWORD 'postgres';"
+
