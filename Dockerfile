@@ -11,6 +11,7 @@ COPY W2D4/data/sakila_backup.dump /docker-entrypoint-initdb.d/
 
 # Install Python packages (including pandas)
 COPY requirements.txt .
+COPY . /home/jovyan/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose PostgreSQL port
