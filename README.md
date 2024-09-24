@@ -26,7 +26,7 @@ Additionally, we provide an interactive environment through **Binder**, where yo
 
 The lectures cover a wide range of topics essential for both Data Science and Data Analytics. Currently you can access:
 
-- **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [Binder]()
+- **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W2D4%2FW2D4_DataQualityAssuranceProcess.ipynb)
 
 ## Contribution
 
@@ -35,3 +35,7 @@ I welcome contributions! If you have suggestions, improvements, or additional co
 ---
 
 Feel free to reach out if you have any questions or need further assistance!
+
+## References
+
+[Ouseful. (2019, February 4). Running a PostgreSQL server in a MyBinder container. OUseful Info.](https://blog.ouseful.info/2019/02/04/running-a-postgresql-server-in-a-mybinder-container/)
