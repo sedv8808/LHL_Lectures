@@ -10,6 +10,6 @@ createdb -O testuser testdb
 createdb -O testuser sakila
 
 # Restore the sakila database from the dump file
-pg_restore -U testuser -d sakila /home/jovyan/W2D4/data/sakila_backup.sql
+psql -U testuser -d sakila -f /home/jovyan/W2D4/data/sakila_backup.sql
 
 psql -d testdb -U testuser -f $THISDIR/seed_db.sql
