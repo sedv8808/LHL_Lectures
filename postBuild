@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Start PostgreSQL service
+service postgresql start
+
+# Create the database from the dump
+pg_restore -U postgres -d sakila /docker-entrypoint-initdb.d/sakila_backup.dump
