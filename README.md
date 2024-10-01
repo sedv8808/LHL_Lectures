@@ -28,6 +28,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W2D4%2FW2D4_DataQualityAssuranceProcess.ipynb)
 
+- **W3D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W3D4_PythonProgrammingII.html.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W3D4%2FW3D4_W3D4_PythonProgrammingII.ipynb)
+
 ## Contribution
 
 I welcome contributions! If you have suggestions, improvements, or additional content to share, please feel free to submit a pull request.
