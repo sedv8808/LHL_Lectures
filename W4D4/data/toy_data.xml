@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<seismic_data>
+   <earthquake id="1" type="moderate">
+       <magnitude>4.5</magnitude>
+       <location>10 km N of Turlock, CA</location>
+       <date>2021-09-01</date>
+       <depth>10</depth> <!-- in kilometers -->
+       <coordinates>
+           <latitude>36.7783</latitude>
+           <longitude>-119.4179</longitude>
+       </coordinates>
+   </earthquake>
+   <earthquake id="2" type="light">
+       <magnitude>5.1</magnitude>
+       <location>20 km S of San Jose, CA</location>
+       <date>2022-06-15</date>
+       <depth>15</depth> <!-- in kilometers -->
+       <coordinates>
+           <latitude>37.3349</latitude>
+           <longitude>-121.8890</longitude>
+       </coordinates>
+   </earthquake>
+   <earthquake id="3" type="strong">
+       <magnitude>6.0</magnitude>
+       <location>30 km SW of Los Angeles, CA</location>
+       <date>2023-01-10</date>
+       <depth>20</depth> <!-- in kilometers -->
+       <coordinates>
+           <latitude>33.9490</latitude>
+           <longitude>-118.4040</longitude>
+       </coordinates>
+   </earthquake>
+</seismic_data>

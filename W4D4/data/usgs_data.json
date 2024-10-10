@@ -1,0 +1,55 @@
+{
+"type": "FeatureCollection",
+"metadata": {
+"generated": 1727902466000,
+"url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1924-10-01&endtime=2024-10-01&latitude=36.7783&longitude=-119.4179&maxradius=50&minmagnitude=0.0&limit=1",
+"title": "USGS Earthquakes",
+"status": 200,
+"api": "1.14.1",
+"limit": 1,
+"offset": 1,
+"count": 1
+},
+"features": [
+{
+"type": "Feature",
+"properties": {
+"mag": 1.11,
+"place": "2 km NW of The Geysers, CA",
+"time": 1727740474980,
+"updated": 1727744370317,
+"tz": null,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75068831",
+"detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75068831&format=geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "automatic",
+"tsunami": 0,
+"sig": 19,
+"net": "nc",
+"code": "75068831",
+"ids": ",nc75068831,",
+"sources": ",nc,",
+"types": ",nearby-cities,origin,phase-data,scitech-link,",
+"nst": 22,
+"dmin": 0.00977,
+"rms": 0.03,
+"gap": 113,
+"magType": "md",
+"type": "earthquake",
+"title": "M 1.1 - 2 km NW of The Geysers, CA"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.779663085938,
+38.785831451416,
+2.29999995231628
+]
+},
+"id": "nc75068831"
+}
+]
+}

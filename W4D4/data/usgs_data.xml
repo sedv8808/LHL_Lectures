@@ -1,0 +1,67 @@
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+<eventParameters publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?format=xml&starttime=1924-10-01&endtime=2024-10-01&latitude=36.7783&longitude=-119.4179&maxradius=50&minmagnitude=0.0&limit=1">
+<event catalog:datasource="nc" catalog:eventsource="nc" catalog:eventid="75068831" publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75068831&format=quakeml">
+<description>
+<type>earthquake name</type>
+<text>2 km NW of The Geysers, CA</text>
+</description>
+<origin catalog:datasource="nc" catalog:dataid="nc75068831" catalog:eventsource="nc" catalog:eventid="75068831" publicID="quakeml:earthquake.usgs.gov/product/origin/nc75068831/nc/1727740570170/product.xml">
+<time>
+<value>2024-09-30T23:54:34.980Z</value>
+</time>
+<longitude>
+<value>-122.779663085938</value>
+</longitude>
+<latitude>
+<value>38.785831451416</value>
+</latitude>
+<depth>
+<value>2299.9999523163</value>
+<uncertainty>460.000008</uncertainty>
+</depth>
+<originUncertainty>
+<horizontalUncertainty>280</horizontalUncertainty>
+<preferredDescription>horizontal uncertainty</preferredDescription>
+</originUncertainty>
+<quality>
+<usedPhaseCount>22</usedPhaseCount>
+<usedStationCount>22</usedStationCount>
+<standardError>0.03</standardError>
+<azimuthalGap>113</azimuthalGap>
+<minimumDistance>0.00977</minimumDistance>
+</quality>
+<evaluationMode>automatic</evaluationMode>
+<creationInfo>
+<agencyID>NC</agencyID>
+<creationTime>2024-09-30T23:56:10.170Z</creationTime>
+<version>0</version>
+</creationInfo>
+</origin>
+<magnitude catalog:datasource="nc" catalog:dataid="nc75068831" catalog:eventsource="nc" catalog:eventid="75068831" publicID="quakeml:earthquake.usgs.gov/product/origin/nc75068831/nc/1727740570170/product.xml#magnitude">
+<mag>
+<value>1.11</value>
+<uncertainty>0.14</uncertainty>
+</mag>
+<type>md</type>
+<stationCount>23</stationCount>
+<originID>quakeml:earthquake.usgs.gov/product/origin/nc75068831/nc/1727740570170/product.xml</originID>
+<evaluationMode>automatic</evaluationMode>
+<creationInfo>
+<agencyID>NC</agencyID>
+<creationTime>2024-09-30T23:56:10.170Z</creationTime>
+</creationInfo>
+</magnitude>
+<preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/nc75068831/nc/1727740570170/product.xml</preferredOriginID>
+<preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/nc75068831/nc/1727740570170/product.xml#magnitude</preferredMagnitudeID>
+<type>earthquake</type>
+<creationInfo>
+<agencyID>nc</agencyID>
+<creationTime>2024-10-01T00:59:30.317Z</creationTime>
+<version>0</version>
+</creationInfo>
+</event>
+<creationInfo>
+<creationTime>2024-10-02T20:25:17.000Z</creationTime>
+</creationInfo>
+</eventParameters>
+</q:quakeml>

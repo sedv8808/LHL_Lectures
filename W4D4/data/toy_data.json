@@ -1,0 +1,55 @@
+{
+  "seismic_data": [
+    {
+      "region": "California",
+      "earthquake_data": [
+        {
+          "earthquakes": [
+            {
+              "magnitude": 4.5,
+              "location": "10 km N of Turlock, CA",
+              "date": "2021-09-01"
+            },
+            {
+              "magnitude": 3.8,
+              "location": "15 km N of Los Angeles, CA",
+              "date": "2021-10-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Nevada",
+      "earthquake_data": [
+        {
+          "earthquakes": [
+            {
+              "magnitude": 4.2,
+              "location": "5 km S of Reno, NV",
+              "date": "2021-11-01"
+            },
+            {
+              "magnitude": 3.9,
+              "location": "20 km W of Las Vegas, NV",
+              "date": "2021-12-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "earthquake_data": [
+        {
+          "earthquakes": [
+            {
+              "magnitude": 4.1,
+              "location": "30 km N of Fresno, CA",
+              "date": "2021-11-15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
