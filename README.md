@@ -30,6 +30,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W3D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W3D4_PythonProgrammingII.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W3D4%2FW3D4_W3D4_PythonProgrammingII.ipynb)
 
+- **W4D4_APIs_and_Other_Data_Types**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W4D4_APIs_and_Other_Data_Types.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W4D4%2FW4D4_APIs_and_Other_Data_Types.ipynb)
+
 ## Contribution
 
 I welcome contributions! If you have suggestions, improvements, or additional content to share, please feel free to submit a pull request.
