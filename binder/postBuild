@@ -10,13 +10,13 @@ fi
 
 #Start the postgres server
 pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
-
+testuser:testpass
 # Restore the database from the dump file
 #pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
 
-psql -U postgres -c "CREATE DATABASE insurance;"
+psql -U testuser -c "CREATE DATABASE insurance;"
 # Restore the Insurance database from the SQL file
-psql -U postgres -d insurance -f /home/jovyan/W1D4/data/insurance.sql
+psql -U testuser -d insurance -f /home/jovyan/W1D4/data/insurance.sql
 
 #Copy the initialisation files into the final container
 mv init_db $CONDA_DIR/
