@@ -10,7 +10,7 @@ fi
 
 #Start the postgres server
 pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
-testuser:testpass
+
 # Restore the database from the dump file
 #pg_restore -U postgres -d sakila /home/jovyan/W2D4/data/sakila_backup.dump
 
