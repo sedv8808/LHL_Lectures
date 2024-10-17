@@ -163,3 +163,5 @@ cython_debug/
 
 **.DS_Store
 solutions/
+.gitignore
+W4D5/src/config.py
