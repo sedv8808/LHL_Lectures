@@ -26,6 +26,8 @@ Additionally, we provide an interactive environment through **Binder**, where yo
 
 The lectures cover a wide range of topics essential for both Data Science and Data Analytics. Currently you can access:
 
+- **W1D4_Combining_Data**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W1D4_Combining_Data.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W1D4%2FW1D4_Combining_Data.ipynb)
+
 - **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W2D4%2FW2D4_DataQualityAssuranceProcess.ipynb)
 
 - **W3D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W3D4_PythonProgrammingII.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W3D4%2FW3D4_W3D4_PythonProgrammingII.ipynb)
