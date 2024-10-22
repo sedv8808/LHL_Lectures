@@ -36,6 +36,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W4D5_Intro_to_EDA**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W4D5_Intro_to_EDA.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W4D5%2FW4D5_Intro_to_EDA.ipynb)
 
+- **W6D4_Intro_to_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W6D4_Intro_to_ML.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W6D4%2FW6D4_Intro_to_ML.ipynb)
+
 ## Contribution
 
 I welcome contributions! If you have suggestions, improvements, or additional content to share, please feel free to submit a pull request.
