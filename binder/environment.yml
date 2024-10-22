@@ -28,5 +28,6 @@ dependencies:
     - ipywidgets
     - seaborn
     - scipy
+    - statsmodels
     
     
