@@ -40,6 +40,11 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W6D4_Intro_to_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W6D4_Intro_to_ML.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W6D4%2FW6D4_Intro_to_ML.ipynb)
 
+- **W7D4_Intro_to_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W7D4_Unsupervised_Learning.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W7D4%2FW7D4_Unsupervised_Learning.ipynb)
+
+- **W7D5_Intro_to_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W7D5_Pipelines_and_Model_Persistence.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W7D5%2FW7D5_Pipelines_and_Model_Persistence.ipynb)
+
+
 ## Contribution
 
 I welcome contributions! If you have suggestions, improvements, or additional content to share, please feel free to submit a pull request.
