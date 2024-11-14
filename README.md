@@ -44,6 +44,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W7D5_Intro_to_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W7D5_Pipelines_and_Model_Persistence.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W7D5%2FW7D5_Pipelines_and_Model_Persistence.ipynb)
 
+- **W9D4_Applications_of_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W9D4_Applications_of_ML.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W9D4%2FW9D4_Applications_of_ML.ipynb)
+
 
 ## Contribution
 
