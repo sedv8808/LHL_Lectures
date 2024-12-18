@@ -46,6 +46,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W9D4_Applications_of_ML**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W9D4_Applications_of_ML.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W9D4%2FW9D4_Applications_of_ML.ipynb)
 
+- **W10D5_LLM_Deployment_and_LLM_Ethics**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W10D5_LLM_Deployment_and_LLM_Ethics.html), [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W10D5%2FW10D5_LLM_Deployment_and_LLM_Ethics.ipynb)
+
 
 ## Contribution
 

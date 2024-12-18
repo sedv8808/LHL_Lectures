@@ -29,5 +29,8 @@ dependencies:
     - seaborn
     - scipy
     - statsmodels
+    - streamlit
+    - transformers
+    - pytorch
     
     
