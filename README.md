@@ -28,6 +28,8 @@ The lectures cover a wide range of topics essential for both Data Science and Da
 
 - **W1D4_Combining_Data**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W1D4_Combining_Data.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W1D4%2FW1D4_Combining_Data.ipynb)
 
+- **W1D5_Organizing_Data**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W1D5_Organizing_Data.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W1D5%2FW1D5_Organizing_Data.ipynb)
+
 - **W2D4_DataQualityAssuranceProcess**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D4_DataQualityAssuranceProcess.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W2D4%2FW2D4_DataQualityAssuranceProcess.ipynb)
 
 - **W2D5_Analyzing_Data**: [GitHub Pages](https://ht-data.com/LHL_Lectures/lectures/W2D5_Analyzing_Data.html) , [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sedv8808/LHL_Lectures/main?labpath=W2D5%2FW2D5_Analyzing_Data.ipynb)
