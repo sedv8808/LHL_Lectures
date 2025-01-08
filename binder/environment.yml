@@ -31,6 +31,6 @@ dependencies:
     - statsmodels
     - streamlit
     - transformers
-    - pytorch
+  #  - pytorch
     
     
