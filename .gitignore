@@ -165,3 +165,7 @@ cython_debug/
 solutions/
 .gitignore
 W4D5/src/config.py
+
+.vscode/
+Docs/
+W4D5/iframe_figures/figure_39.html
